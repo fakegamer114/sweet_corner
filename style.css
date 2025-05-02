@@ -1,0 +1,126 @@
+/* القاعدة العامة */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff0f5;
+    color: #444;
+  }
+  .hero {
+    position: relative;
+    background: url('https://scontent.forn3-5.fna.fbcdn.net/v/t1.15752-9/494576969_549425871222718_1508992150873835638_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=7R8gb_mqJogQ7kNvwHNoGX9&_nc_oc=AdnpYeH7JKxETl18Y-jSpnQGBOaYx5UqBxNnsmjBBQsWHn5AqK_FEjIByhieKj97eo0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.forn3-5.fna&oh=03_Q7cD2AFDSjgjEK3c-VoN5JQpHY23oKAVT6aVQBYGCC-1PSCVLQ&oe=683C4D71') center/cover no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .overlay {
+    background-color: rgba(255, 182, 193, 0.75); /* وردي لباني شفاف */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  header {
+    background-color: #ffb6c1;
+    padding: 40px 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 40px;
+    letter-spacing: 2px;
+  }
+  
+  header p {
+    font-size: 18px;
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  section {
+    padding: 30px 15px;
+    text-align: center;
+  }
+  
+  section h2 {
+    color: #d28f8f;
+    font-size: 28px;
+  }
+  
+  section p {
+    max-width: 600px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 0 10px;
+  }
+  
+  .socials {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .socials a {
+    background-color: #ffdede;
+    padding: 10px 15px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #d28f8f;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .socials a:hover {
+    background-color: #ffb6c1;
+    color: white;
+  }
+  
+  footer {
+    background-color: #fcefee;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* ✅ استجابة الهواتف */
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 32px;
+    }
+  
+    header p {
+      font-size: 16px;
+    }
+  
+    section h2 {
+      font-size: 24px;
+    }
+  
+    section p {
+      font-size: 15px;
+    }
+  
+    .socials a {
+      padding: 8px 12px;
+      font-size: 14px;
+    }
+  }
+  
