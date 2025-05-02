@@ -13,21 +13,14 @@ body {
     align-items: center;
     justify-content: center;
     color: #fff;
-    border-radius: 82px;
-    margin: 10px;
-    box-shadow: 0 0 23px #ffc1c9;
-    transition:all 0.5s ease;
-}
-.hero :hover{
-    transform: scale(1.03);
-}
+    
+  }
   
   .overlay {
-    background-color: rgba(255, 182, 193, 0.85); /* وردي لباني شفاف */
+    background-color: rgba(255, 182, 193, 0.75); /* وردي لباني شفاف */
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    transition:all 0.5s ease;
   }
   
   .hero h1 {
@@ -38,7 +31,6 @@ body {
   .hero p {
     font-size: 16px;
     margin-top: 10px;
-    transition:all 0.5s ease;
   }
   
   header {
