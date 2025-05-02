@@ -78,20 +78,20 @@ body {
   }
   
   .socials a {
-    background-color: #ffdede;
-    padding: 10px 15px;
-    border-radius: 25px;
-    text-decoration: none;
-    color: #d28f8f;
-    font-weight: bold;
-    transition: background 0.3s;
-  }
-  
-  .socials a:hover {
-    background-color: #ffb6c1;
-    color: white;
-  }
-  
+  background-color: #fff0f5;
+  padding: 12px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #a0526d;
+  font-weight: bold;
+  border: 2px solid #ffb6c1;
+  transition: all 0.3s ease;
+}
+
+.socials a:hover {
+  background-color: #ffb6c1;
+  color: white;
+}
   footer {
     background-color: #fcefee;
     text-align: center;
